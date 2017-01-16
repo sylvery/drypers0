@@ -14,7 +14,7 @@
     "website"
   ],
   "website": "https://keystonejs.com",
-  "repository": "https://github.com/JedWatson/keystone-starter",
+  "repository": "https://github.com/sylvery/drypers0",
   "logo": "http://keystonejs.com/images/logo-128.png",
   "env" : {
     "NODE_ENV": "production",

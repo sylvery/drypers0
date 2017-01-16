@@ -5,14 +5,15 @@ require('dotenv').config();
 // Require keystone
 var keystone = require('keystone');
 var handlebars = require('express-handlebars');
+var mongoose = require('mongoose');
 
 // Initialise Keystone with your project's configuration.
 // See http://keystonejs.com/guide/config for available options
 // and documentation.
 
 keystone.init({
-	'name': 'drypers0',
-	'brand': 'drypers0',
+	'name': 'drypersfacebookapp',
+	'brand': 'DRYPERS',
 
 	'less': 'public',
 	'static': 'public',
@@ -62,6 +63,8 @@ keystone.set('nav', {
 	users: 'users',
 });
 
-// Start Keystone to connect to your database and initialise the web server
+// connect to database
+mongoose.set('mongo', process.env.MONGO_URI || "mongodb://drypersfacebookapp_admin:$udop@$$@ds115918.mlab.com:15918/heroku_8kkzljdm");
 
+// Start Keystone to connect to your database and initialise the web server
 keystone.start();
