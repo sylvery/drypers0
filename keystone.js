@@ -65,7 +65,7 @@ keystone.set('nav', {
 
 // connect to database
 keystone.set('mongoose', {
-	mongo: 'process.env.MONGO_URI || "mongodb://drypersfacebookapp_admin:$udop@$$@ds115918.mlab.com:15918/heroku_8kkzljdm"'
+	mongo: "mongodb://drypersfacebookapp_admin:$udop@$$@ds115918.mlab.com:15918/heroku_8kkzljdm"
 });
 
 // Start Keystone to connect to your database and initialise the web server
