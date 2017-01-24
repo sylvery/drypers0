@@ -64,7 +64,7 @@ keystone.set('nav', {
 });
 
 // connect to database
-keystone.set('mongo', "mongodb://127.0.0.1:27017/drypers0");
+// keystone.set('mongo', "mongodb://127.0.0.1:27017/drypers0");
 console.log('mongo', keystone.get('mongo'));
 // keystone.set('mongo', "mongodb://drypersfbapp_admin:drypersapp_admin@ds115918.mlab.com:15918/heroku_8kkzljdm");
 
