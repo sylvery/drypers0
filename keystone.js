@@ -59,12 +59,14 @@ keystone.Email.defaults.templateEngine = require('handlebars');
 keystone.set('nav', {
 	galleries: 'galleries',
 	enquiries: 'enquiries',
+	content: ['posts', 'post-categories'],
 	users: 'users',
 });
 
 // connect to database
 // keystone.set('mongo', "mongodb://127.0.0.1:27017/drypers0");
-keystone.set('mongo', "mongodb://drypersfacebookapp_admin:$udop@$$@ds115918.mlab.com:15918/heroku_8kkzljdm");
+// keystone.set('mongo', keystone.get(process.env.MONGO_URI));
+// keystone.set('mongo', "mongodb://drypersfbapp_admin:drypersapp_admin@ds115918.mlab.com:15918/heroku_8kkzljdm");
 
 // Start Keystone to connect to your database and initialise the web server
 keystone.start();
