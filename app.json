@@ -1,6 +1,6 @@
 {
-  "name": "KeystoneJS Starter",
-  "description": "A basic KeystoneJS website with a blog, image gallery and contact form.",
+  "name": "Drypers Facebook App",
+  "description": "A basic KeystoneJS Facebook web application.",
   "keywords": [
     "keystone",
     "keystonejs",
@@ -13,7 +13,7 @@
     "cms",
     "website"
   ],
-  "website": "https://keystonejs.com",
+  "website": "http://drypers0.herokuapp.com/",
   "repository": "https://github.com/sylvery/drypers0",
   "logo": "http://keystonejs.com/images/logo-128.png",
   "env" : {
